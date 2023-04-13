@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="Vuelos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelos</title>
+</head>
+
+
+<body>
+    <!-- Lista de menu o barra de navegacion -->
+    <div class="container-nav">
+        <nav>
+            <ul class="list-nav">
+                <li><a href="Index.html" class="li-0-nav"> Inicio</a></li>
+                <li><a href="Vuelos.html" class="li-1-nav"> Vuelos</a></li>
+                <li><a href="hoteles.html" class="li-2-nav"> Hoteles</a></li>
+                <li><a href="autos.html" class="li-3-nav"> Autos</a></li>
+
+            </ul>
+
+        </nav>
+
+
+        <h3> <a href="registro.html">Iniciar Sesion </a></h3>
+
+
+    </div>
+
+
+
+    </header>
+
+    <main>
+        <!-- Section del formulario -->
+        <Section>
+            <div class="formulario-de-vuelo">
+
+                <form action="">
+
+                    <label for="solo-ida">Solo ida</label>
+                    <input type="checkbox" id="solo-ida">
+                    <br>
+
+                    <label for="desde"> Desde</label>
+                    <select name="desde" id="desde" class="seleccion">
+                        <option value="republicaDominicana">Republica Dominicana</option>
+                        <option value="usa">EE.UU</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="mexico">México</option>
+                        <option value="china">China</option>
+                    </select>
+
+                    <label for="hasta"> Hasta</label>
+                    <select name="hasta" id="hasta" class="seleccion">
+                        <option value="republica-rominicana">Republica Dominicana</option>
+                        <option value="ee-uu">EE.UU</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="mexico">México</option>
+                        <option value="china">China</option>
+                    </select>
+
+                    <label for="salida">Salida</label>
+                    <input type="date" id="salida" class="seleccion">
+
+                    <label for="regreso" id="label-regreso">Regreso</label>
+                    <input type="date" id="regreso" class="seleccion">
+
+
+                    <br>
+
+                    <label for="pasajeros"> Pasajeros</label>
+                    <select name="pasajeros" id="pasajeros"  class="seleccion">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 o mas...</option>
+                    </select>
+
+                    <!-- <input type="submit" value="Buscar Vuelos" class="buscar-vuelos"> -->
+
+
+                </form>
+            </div>
+
+        </Section>
+        <hr>
+
+
+
+        <h1>Vuelos Disponibles</h1>
+        <!-- Section de los vuelos -->
+        <Section class="vuelos">
+
+
+            <!-- Rd--china -->
+            <div class="div-vuelos" id="rdchina">
+                <ul>
+                    <li>
+                        <img src="IMG/China.png" alt="Imagen de chima" width="300px">
+                        <h3>RD &#x21c4 China</h3>
+                        <img src="IMG/Air_China_logo-removebg-preview.png" alt="Logo de aerolinea de china "
+                            width="80px">
+                        <h3>
+                            &#36;1000
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo"></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- china--Rd -->
+
+            <div class="div-vuelos" id="chinaRd">
+                <ul>
+                    <li>
+                        <img src="IMG/RD.jpg" alt="Imagen de Republica Dominicana" width="300px" height="170px">
+                        <h3>China &#x21c4 RD </h3>
+                        <img src="IMG/Air_China_logo-removebg-preview.png" alt="Logo de aerolinea de china "
+                            width="80px">
+                        <h3>
+                            &#36;1000
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Rd--colombia -->
+
+            <div class="div-vuelos" id="rdColombia">
+                <ul>
+                    <li>
+                        <img src="IMG/colombia.jpg" alt="Imagen de Colombia " width="300px" height="170px">
+                        <h3>RD &#x21c4 Colombia</h3>
+                        <img src="IMG/Delta.png" alt="Logo de aerolinea Delta " width="80px">
+                        <h3>
+                            &#36;600
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- colombia--RD -->
+            <div class="div-vuelos" id="colombiaRd">
+                <ul>
+                    <li>
+                        <img src="IMG/RD.jpg" alt="Imagen de Republica Dominicana" width="300px" height="170px">
+                        <h3>Colombia &#x21c4 RD</h3>
+                        <img src="IMG/Delta.png" alt="Logo de aerolinea Delta" width="80px">
+                        <h3>
+                            &#36;600
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Rd--mexico -->
+
+            <div class="div-vuelos" id="rdMexico">
+                <ul>
+                    <li>
+                        <img src="IMG/mexico.jpg" alt="Imagen de Mexico" width="300px" height="170px">
+                        <h3>RD &#x21c4 Mexico</h3>
+                        <img src="IMG/aeromexico.png" alt="Logo de aeromexico " width="80px">
+                        <h3>
+                            &#36;700
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Mexico--Rd -->
+            <div class="div-vuelos" id="mexicoRd">
+                <ul>
+                    <li>
+                        <img src="IMG/RD.jpg" alt="Imagen de Republica Dominicana" width="300px" height="170px">
+                        <h3>Mexico &#x21c4 RD</h3>
+                        <img src="IMG/aeromexico.png" alt="Logo de aeromexico " width="80px">
+                        <h3>
+                            &#36;600
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Rd--EE.UU -->
+            <div class="div-vuelos" id="rdUsa">
+                <ul>
+                    <li>
+                        <img src="IMG/USA.jpg" alt="Imagen de Estados Unidos" width="300px" height="170px">
+                        <h3> RD &#x21c4 USA</h3>
+                        <img src="IMG/american_airline.png" alt="Logo de American Airline " width="80px">
+                        <h3>
+                            &#36;800
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- EE.UU--Rd -->
+            <div class="div-vuelos" id="usaRd">
+                <ul>
+                    <li>
+                        <img src="IMG/RD.jpg" alt="Imagen de Republica Dominicana" width="300px" height="170px">
+                        <h3> EE.UU &#x21c4 RD</h3>
+                        <img src="IMG/american_airline.png" alt="Logo de American Airline " width="80px">
+                        <h3>
+                            &#36;800
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- Mexico--EE.UU -->
+            <div class="div-vuelos" id="mexicoUsa">
+                <ul>
+                    <li>
+                        <img src="IMG/USA.jpg" alt="Imagen de Estados Unidos" width="300px" height="170px">
+                        <h3>Mexico &#x21c4 EE.UU</h3>
+                        <img src="IMG/aeromexico.png" alt="Logo de Aeromexico" width="80px">
+                        <h3>
+                            &#36;400
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!-- EE.UU--Mexico -->
+
+            <div class="div-vuelos" id="usaMexico">
+                <ul>
+                    <li>
+                        <img src="IMG/mexico.jpg" alt="Imagen de Mexico" width="300px" height="170px">
+                        <h3>EE.UU &#x21c4 Mexico</h3>
+                        <img src="IMG/american_airline.png" alt="Logo de American Airline " width="80px">
+                        <h3>
+                            &#36;400
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- Mexico--china -->
+            <div class="div-vuelos" id="mexicoChina">
+                <ul>
+                    <li>
+                        <img src="IMG/China.png" alt="Imagen de chima" width="300px" height="170px">
+                        <h3>Mexico &#x21c4 China</h3>
+                        <img src="IMG/Air_China_logo-removebg-preview.png" alt="Logo de aerolinea de china "
+                            width="80px">
+                        <h3>
+                            &#36;1200
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <!-- China--Mexico -->
+
+            <div class="div-vuelos" id="chinaMexico">
+                <ul>
+                    <li>
+                        <img src="IMG/mexico.jpg" alt="Imagen de Mexico" width="300px" height="170px">
+                        <h3>China &#x21c4 Mexico</h3>
+                        <img src="IMG/aeromexico.png" alt="Logo de Aeromexico " width="80px">
+                        <h3>
+                            &#36;1200
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Mexico--colombia -->
+
+            <div class="div-vuelos" id="mexicoColombia">
+                <ul>
+                    <li>
+                        <img src="IMG/colombia.jpg" alt="Imagen de Colombia" width="300px" height="170px">
+                        <h3>Mexico &#x21c4 Colombia</h3>
+                        <img src="IMG/Delta.png" alt="Logo de Delta " width="80px">
+                        <h3>
+                            &#36;500
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Colombia--Mexico -->
+
+            <div class="div-vuelos" id="colombiaMexico">
+                <ul>
+                    <li>
+                        <img src="IMG/mexico.jpg" alt="Imagen de Mexico" width="300px" height="170px">
+                        <h3>Colombia &#x21c4 Mexico</h3>
+                        <img src="IMG/aeromexico.png" alt="Logo de Aeromexico " width="80px">
+                        <h3>
+                            &#36;500
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Colombia--china -->
+
+            <div class="div--vuelos" id="colombiaChina">
+                <ul>
+                    <li>
+                        <img src="IMG/China.png" alt="Imagen de chima" width="300px" height="170px">
+                        <h3>Colombia &#x21c4 China</h3>
+                        <img src="IMG/Air_China_logo-removebg-preview.png" alt="Logo de aerolinea de china "
+                            width="80px">
+                        <h3>
+                            &#36;1200
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- China---Colombia -->
+            <div class="div-vuelos" id="chinaColombia">
+                <ul>
+                    <li>
+                        <img src="IMG/colombia.jpg" alt="Imagen de Colombia" width="300px" height="170px">
+                        <h3>China &#x21c4 Colombia</h3>
+                        <img src="IMG/Delta.png" alt="Logo de Delta " width="80px">
+                        <h3>
+                            &#36;1200
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Colombia--EE.UU -->
+
+            <div class="div-vuelos" id="colombiaUsa">
+                <ul>
+                    <li>
+                        <img src="IMG/USA.jpg" alt="Imagen de Estados Unidos" width="300px" height="170px">
+                        <h3>Colombia &#x21c4 EE.UU</h3>
+                        <img src="IMG/american_airline.png" alt="Logo de American Airline " width="80px">
+                        <h3>
+                            &#36;600
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- EE.UU--china -->
+
+            <div class="div-vuelos" id="usaChina">
+                <ul>
+                    <li>
+                        <img src="IMG/China.png" alt="Imagen de chima" width="300px" height="170px">
+                        <h3>EE.UU &#x21c4 China</h3>
+                        <img src="IMG/Air_China_logo-removebg-preview.png" alt="Logo de aerolinea de china "
+                            width="80px">
+                        <h3>
+                            &#36;2000
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+            <!-- China--EE.UU -->
+
+            <div class="div-vuelos" id="chinaUsa">
+                <ul>
+                    <li>
+                        <img src="IMG/USA.jpg" alt="Imagen de Estados Unidos" width="300px" height="170px">
+                        <h3>China &#x21c4 EE.UU</h3>
+                        <img src="IMG/american_airline.png" alt="Logo de American Airline " width="80px">
+                        <h3>
+                            &#36;2000
+                        </h3>
+                        <a href="pago.html"><input type="submit" value="Comprar Vuelo" id="comprar-vuelo" ></a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+
+
+
+
+
+        </Section>
+
+
+
+    </main>
+
+
+    <script src="interacciones.js"></script>
+</body>
+
+<footer>
+    <div class="container-footer">
+        <img src="IMG/facebook.png" alt="Logo de facebook" width="30px">
+        <img src="IMG/gmail.png" alt="logo de gmail" width="30px">
+        <img src="IMG/instagram.png" alt="Logo de instagram" width="30px">
+        <img src="IMG/linkedin.png" alt="Logo de linkedin" width="30px">
+        <img src="IMG/telegrama.png" alt="Logo de telegram" width="30px">
+        <img src="IMG/gorjeo.png" alt="Logo de Twitter" width="30px">
+
+
+    </div>
+
+    <section class="coppy">
+        <p>© Copyright Unknown Travelers - 2023</p>
+    </section>
+
+</footer>
+
+</html>

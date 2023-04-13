@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="autos.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Parte del encabezado -->
+    <header class="dropdown-header">
+        <div class="contaimer-de-encabezado">
+            <h1 class="titulo-de-lapagina">Unknown Travelers</h1>
+            <img src="IMG/Logotipo_circular_agencia_de_viajes_simple_azul_y_blanco-removebg-preview.png" alt="Lodgo de unknown travelers" class="logo" width="250px"> 
+        </div>
+      <!-- Lista de menu o barra de navegacion -->
+      <div class="container-nav">
+        <nav>
+          <ul class="list-nav">
+            <li><a href="Index.html" class="li-0-nav"> Inicio</a></li>
+            <li><a href="Vuelos.html" class="li-1-nav"> Vuelos</a></li>
+            <li><a href="hoteles.html" class="li-2-nav"> Hoteles</a></li>
+            <li><a href="autos.html" class="li-3-nav"> Autos</a></li>
+            
+          </ul>
+        
+        </nav>
+      
+        
+            <h3> <a href="registro.html">Iniciar Sesion </a></h3>
+        
+           
+        
+    </div>
+
+       
+        
+    </header>
+
+<main>
+
+
+    <section class="section-form">
+        <form >
+            <label for="marca"> Marca de Autos</label>
+            <select name="marca" id="marca" onchange="mostrarElementos()" class="seleccion" >
+               
+                <option value="">Honda</option>
+                <option value="">NISSAN</option>
+                <option value="">Hyundai</option>
+                <option value="">Kia</option>
+                <option value="">Chevrolet</option>
+            </select>
+
+            <label for="fecha-de-recojida">Fecha de Recojida</label>
+            <input type="date" id="fecha-de-recojida" name="fecha-de-recojida" class="seleccion" >
+
+            <label for="fecha-de-entrega">Fecha de Entrega</label>
+            <input type="date" id="fecha-de-entrega" name="fecha-de-entrga" class="seleccion" >
+
+            <input type="submit" value="Buscar" class="seleccion" >
+
+
+        </form>
+
+
+    </section>
+
+    <h1>
+        Autos Disponibles
+    </h1>
+
+    <!-- Section de autos -->
+
+<section class="section-autos" >
+
+
+    <!-- Hyundai -->
+    <div class="div-autos" id="Hyundai">
+        <ul>
+            <li>
+                <img src="IMG/2018_Hyundai_Santa_Fe.jpg" alt="Imagen de Vehículo hyundai" width="300px" height="170px">
+                <h4>HYUNDAI 5 PASAJEROS </h4>
+                <img src="IMG/Hyundai-Logo.png" alt="Logo de la marca da vehiculos Hyundai" width="80px">
+                <h4>&#36;258</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="div-autos" id="Hyundai">
+        <ul>
+            <li>
+                <img src="IMG/2018_Hyundai_Santa_Fe.jpg" alt="Imagen de Vehículo hyundai" width="300px" height="170px">
+                <h4>HYUNDAI 5 PASAJEROS </h4>
+                <img src="IMG/Hyundai-Logo.png" alt="Logo de la marca da vehiculos Hyundai" width="80px">
+                <h4>&#36;258</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Hyundai">
+        <ul>
+            <li>
+                <img src="IMG/2018_Hyundai_Santa_Fe.jpg" alt="Imagen de Vehículo hyundai" width="300px" height="170px">
+                <h4>HYUNDAI 5 PASAJEROS </h4>
+                <img src="IMG/Hyundai-Logo.png" alt="Logo de la marca da vehiculos Hyundai" width="80px">
+                <h4>&#36;258</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Hyundai">
+        <ul>
+            <li>
+                <img src="IMG/2018_Hyundai_Santa_Fe.jpg" alt="Imagen de Vehículo hyundai" width="300px" height="170px">
+                <h4>HYUNDAI 5 PASAJEROS </h4>
+                <img src="IMG/Hyundai-Logo.png" alt="Logo de la marca da vehiculos Hyundai" width="80px">
+                <h4>&#36;258</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+    
+
+
+
+    <!-- HONDA CIVIC  -->
+
+    <div class="div-autos" id="Honda">
+        <ul>
+            <li>
+                <img src="IMG/Honda civic.jpg" alt="Imagen de Vehículo Honda" width="300px" height="170px">
+                <h4>Honda 5 PASAJEROS </h4>
+                <img src="IMG/honda-logo.png" alt="Logo de la marca da vehiculos Honda" width="80px">
+                <h4>&#36;300</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="div-autos" id="Honda">
+        <ul>
+            <li>
+                <img src="IMG/Honda civic.jpg" alt="Imagen de Vehículo Honda" width="300px" height="170px">
+                <h4>Honda 5 PASAJEROS </h4>
+                <img src="IMG/honda-logo.png" alt="Logo de la marca da vehiculos Honda" width="80px">
+                <h4>&#36;300</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Honda">
+        <ul>
+            <li>
+                <img src="IMG/Honda civic.jpg" alt="Imagen de Vehículo Honda" width="300px" height="170px">
+                <h4>Honda 5 PASAJEROS </h4>
+                <img src="IMG/honda-logo.png" alt="Logo de la marca da vehiculos Honda" width="80px">
+                <h4>&#36;300</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Honda">
+        <ul>
+            <li>
+                <img src="IMG/Honda civic.jpg" alt="Imagen de Vehículo Honda" width="300px" height="170px">
+                <h4>Honda 5 PASAJEROS </h4>
+                <img src="IMG/honda-logo.png" alt="Logo de la marca da vehiculos Honda" width="80px">
+                <h4>&#36;300</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+    <!-- KIA PICANTO  -->
+    <div class="div-autos" id="KIA">
+        <ul>
+            <li>
+                <img src="IMG/2019_Kia.jpg" alt="Imagen de Vehículo KIA" width="300px" height="170px">
+                <h4>KIA 5 PASAJEROS </h4>
+                <img src="IMG/KIA_logo.png" alt="Logo de la marca da vehiculos KIA" width="80px">
+                <h4>&#36;250</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="div-autos" id="KIA">
+        <ul>
+            <li>
+                <img src="IMG/2019_Kia.jpg" alt="Imagen de Vehículo KIA" width="300px" height="170px">
+                <h4>KIA 5 PASAJEROS </h4>
+                <img src="IMG/KIA_logo.png" alt="Logo de la marca da vehiculos KIA" width="80px">
+                <h4>&#36;250</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="KIA">
+        <ul>
+            <li>
+                <img src="IMG/2019_Kia.jpg" alt="Imagen de Vehículo KIA" width="300px" height="170px">
+                <h4>KIA 5 PASAJEROS </h4>
+                <img src="IMG/KIA_logo.png" alt="Logo de la marca da vehiculos KIA" width="80px">
+                <h4>&#36;250</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="KIA">
+        <ul>
+            <li>
+                <img src="IMG/2019_Kia.jpg" alt="Imagen de Vehículo KIA" width="300px" height="170px">
+                <h4>KIA 5 PASAJEROS </h4>
+                <img src="IMG/KIA_logo.png" alt="Logo de la marca da vehiculos KIA" width="80px">
+                <h4>&#36;250</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- NISSAN SENTRA  -->
+    <div class="div-autos" id="Nissan">
+        <ul>
+            <li>
+                <img src="IMG/NISSAN.jpg" alt="Imagen de Vehículo NISSAN" width="300px" height="170px">
+                <h4>NISSAN 5 PASAJEROS </h4>
+                <img src="IMG/NISSAN-logo.png" alt="Logo de la marca da vehiculos NISSAN" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="div-autos" id="Nissan">
+        <ul>
+            <li>
+                <img src="IMG/NISSAN.jpg" alt="Imagen de Vehículo NISSAN" width="300px" height="170px">
+                <h4>NISSAN 5 PASAJEROS </h4>
+                <img src="IMG/NISSAN-logo.png" alt="Logo de la marca da vehiculos NISSAN" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Nissan">
+        <ul>
+            <li>
+                <img src="IMG/NISSAN.jpg" alt="Imagen de Vehículo NISSAN" width="300px" height="170px">
+                <h4>NISSAN 5 PASAJEROS </h4>
+                <img src="IMG/NISSAN-logo.png" alt="Logo de la marca da vehiculos NISSAN" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Nissan">
+        <ul>
+            <li>
+                <img src="IMG/NISSAN.jpg" alt="Imagen de Vehículo NISSAN" width="300px" height="170px">
+                <h4>NISSAN 5 PASAJEROS </h4>
+                <img src="IMG/NISSAN-logo.png" alt="Logo de la marca da vehiculos NISSAN" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <!-- CHEVROLET MALIBU  -->
+    <div class="div-autos" id="Chevrolet">
+        <ul>
+            <li>
+                <img src="IMG/CHEVROLET.jpg" alt="Imagen de Vehículo Chevrolet" width="300px" height="170px">
+                <h4> CHEVROLET 5 PASAJEROS </h4>
+                <img src="IMG/chevy-logo.png" alt="Logo de la marca da vehiculos  CHEVROLET" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="div-autos" id="Chevrolet">
+        <ul>
+            <li>
+                <img src="IMG/CHEVROLET.jpg" alt="Imagen de Vehículo Chevrolet" width="300px" height="170px">
+                <h4> CHEVROLET 5 PASAJEROS </h4>
+                <img src="IMG/chevy-logo.png" alt="Logo de la marca da vehiculos  CHEVROLET" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Chevrolet">
+        <ul>
+            <li>
+                <img src="IMG/CHEVROLET.jpg" alt="Imagen de Vehículo Chevrolet" width="300px" height="170px">
+                <h4> CHEVROLET 5 PASAJEROS </h4>
+                <img src="IMG/chevy-logo.png" alt="Logo de la marca da vehiculos  CHEVROLET" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="div-autos" id="Chevrolet">
+        <ul>
+            <li>
+                <img src="IMG/CHEVROLET.jpg" alt="Imagen de Vehículo Chevrolet" width="300px" height="170px">
+                <h4> CHEVROLET 5 PASAJEROS </h4>
+                <img src="IMG/chevy-logo.png" alt="Logo de la marca da vehiculos  CHEVROLET" width="80px">
+                <h4>&#36;350</h4>
+                <a href="pago.html"><input type="submit" name="Buscar" id="Buscar-autos" value="Alquilar"></a>
+            </li>
+        </ul>
+
+    </div>
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+
+<script src="interacciones.js"></script>
+</body>
+
+<footer>
+    <div class="container-footer">
+        <img src="IMG/facebook.png" alt="Logo de facebook" width="30px">
+        <img src="IMG/gmail.png" alt="logo de gmail" width="30px">
+        <img src="IMG/instagram.png" alt="Logo de instagram" width="30px">
+        <img src="IMG/linkedin.png" alt="Logo de linkedin" width="30px">
+        <img src="IMG/telegrama.png" alt="Logo de telegram" width="30px">
+        <img src="IMG/gorjeo.png" alt="Logo de Twitter" width="30px">
+
+
+    </div>
+    </div>
+
+    <section class="coppy">
+        <p>© Copyright Unknown Travelers - 2023</p>
+    </section>
+
+</footer>
+</html>
